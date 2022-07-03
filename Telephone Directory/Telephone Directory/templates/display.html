@@ -1,0 +1,9 @@
+{% extends 'layout.html' %}
+<ul>
+{% block content%}
+  <h1>No. of Entries: </h1>
+    {% for i in items_info %}
+          <li>{{ i }}</li><br>
+    {% endfor %}
+{% endblock %}
+</ul>
